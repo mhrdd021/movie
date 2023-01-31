@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family: vazir;
+    src: url("../fonts/Vazir.woff");
+}
+body{
+    background: #121212;
+    font-family: vazir;
+}
+.red{
+    color: #ff3f34;
+}

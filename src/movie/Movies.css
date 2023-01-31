@@ -1,0 +1,60 @@
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.banner_row{
+    filter: none !important;
+}
+.image_container_movie img{
+    border: 3px solid;
+    border-image: linear-gradient(rgba(254, 7, 24, 0.799), rgba(103, 33, 33, 0.289), rgba(0, 0, 0, 0)) 1;
+}
+
+@media screen and (max-width:870px) {
+    .banner{
+        height: auto;
+    }
+    .banner_row{
+        display: block;
+        height: fit-content;
+    }
+    .image_container_movie{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .image_container_movie img{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .text_container{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+    .text_container h1{
+        font-size: 1.2rem;
+    }
+    .text_container h2{
+        margin: 0.4rem 0;
+        font-size: 1rem;
+    }
+    .text_container p{
+        font-size: 0.8rem;
+        margin-top: 0;
+        padding: 1.5rem 0;
+    }
+    .imdb_name_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imdb_rating{
+        width: fit-content;
+        margin: 1rem auto;
+    }
+    .poster_container{
+        display: block;
+        width: 75%;
+    }
+}

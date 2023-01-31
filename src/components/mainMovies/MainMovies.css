@@ -1,0 +1,109 @@
+.button-48 {
+    float: left;
+    appearance: none;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #ff3f34 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 0;
+    opacity: 1;
+    outline: 0;
+    padding: 0.6rem 1rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 8px;
+    margin-left: 1rem;
+  }
+  
+  .button-48:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #bf4c4c6f;
+    color: #ff3f34 !important;
+    border-radius: 8px;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+  }
+  
+  .button-48:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  }
+  
+  .button-48:after {
+    background-color: #e71c1c;
+    color: white !important;
+  }
+  
+  .button-48 span {
+    z-index: 1;
+    position: relative;
+  }
+  .movie_card{
+    background: linear-gradient(45deg, #000000, #2f2f2f);
+  }
+  @media screen and (max-width:1250px) {
+    .movie_card{
+        width: 90%;
+        height: fit-content;
+    }
+    .image_container{
+        width: 40%;
+        height: auto;
+        padding: 0;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .movie_card{
+        display: block;
+        width: 90%;
+        height: fit-content;
+    }
+    .image_container{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .text_container{
+        width: 100%;
+        padding: 0 1rem 3rem;
+    }
+    .imdb_name_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imdb_rating{
+        width: auto;
+        margin: 1rem auto;
+    }
+  }
+ .MuiPagination-ul{
+  justify-content: center !important;
+  color: white !important;
+  width: 90%;
+  margin: 0 auto;
+ }
+ .MuiPagination-ul button{
+  color: white;
+ }
