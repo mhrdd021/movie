@@ -34,16 +34,17 @@
         margin-top: 0;
     }
     .text_container h1{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .text_container h2{
         margin: 0.4rem 0;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .text_container p{
+        font-weight: 100;
         font-size: 0.8rem;
         margin-top: 0;
-        padding: 1.5rem 0;
+        padding: 1.5rem 0.8rem;
     }
     .imdb_name_container{
         display: flex;

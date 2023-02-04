@@ -28,9 +28,9 @@ const Movies = () => {
         .catch(e=>console.log(e))
     } , [])
 
-console.log(movies)
+
     if(movies.images){
-        var bg = `linear-gradient(black, black) , url(${movies.images[0]})`
+        var bg = `linear-gradient(black, black) , url(${movies.images[1]})`
     }else{
         var bg = `linear-gradient(black, black) , url(${BGpic})`
     }

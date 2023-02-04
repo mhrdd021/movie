@@ -4,6 +4,10 @@ import { MdLocationPin } from 'react-icons/md';
 import { FaPhone } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
+import { FaTelegramPlane } from 'react-icons/fa';
+import { BsTwitch } from 'react-icons/bs';
+import { RxTwitterLogo } from 'react-icons/rx';
+import { BsInstagram } from 'react-icons/bs';
 
 const Footer = () => {
     return (
@@ -79,11 +83,11 @@ const Footer = () => {
                         <div className="footer-text mb-25">
                         <p>با ثبتنام در این سایت میتوانید فیلم مورد علاقه خودرا آپلود و یا از همکاران ما درخواست بارگذاری آن را داشته باشید</p>
                         </div>
-                        <div className="subscribe-form">
-                        <form action="#">
-                            <input type="text" placeholder="ایمیل" />
-                            <button><MdOutlineAlternateEmail className='text-3xl'/></button>
-                        </form>
+                        <div className="flex gap-4 text-xl text-zinc-400">
+                            <FaTelegramPlane />
+                            <BsTwitch />
+                            <RxTwitterLogo />
+                            <BsInstagram />
                         </div>
                     </div>
                     </div>

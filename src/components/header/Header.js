@@ -67,7 +67,7 @@ const Header = () => {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0" style={{direction:'rtl'}}>
                
                 <li className="text-white">
-                  <Link to={"/Movies"}>
+                  <Link to={"/"}>
                     <span className="text flex">
                       <BiMovie className='text-xl red ml-1 mr-1'/>دانلود فیلم
                     </span>
